@@ -1,11 +1,53 @@
-Monsieur,
+# TP Jenkins – MultiBranch Pipeline
 
-Conformément aux consignes du TP MultiBranch Pipeline, j’ai réalisé le travail demandé et l’ai soumis via un dépôt GitHub nommé MultiBranchPipeLine-ahlamhmich.
-Le projet compile correctement sans erreur et le script Jenkinsfile a bien été ajouté au dépôt.
+**Réalisé par :** Ahlam Hmich  
+**Module :** DevOps / CI-CD  
+**Outil :** Jenkins  
 
-Les captures d’exécution du pipeline sont incluses dans le rapport, et non dans le fichier README.md.
-Un court rapport a ainsi été préparé pour détailler le travail réalisé.
+---
 
-Le lien du dépôt GitHub a été transmis via Google Classroom, comme demandé.
+## 🎯 Objectif du TP
+Mettre en place un **MultiBranch Pipeline Jenkins** connecté à un dépôt GitHub
+afin d’automatiser le build d’un projet Maven à chaque changement de branche.
 
-Cordialement.
+---
+
+## 🛠️ Contenu du projet
+- Projet **Maven**
+- Fichier **Jenkinsfile**
+- Configuration **MultiBranch Pipeline**
+- Intégration GitHub via **Webhook**
+
+---
+
+## 🔗 Configuration du Webhook GitHub
+Le webhook a été configuré pour notifier Jenkins à chaque push.
+
+![Webhook configuration](screenshots/image1.jpeg)
+
+---
+
+## 🔍 Scan du dépôt par Jenkins
+Jenkins détecte automatiquement les branches et le Jenkinsfile.
+
+![Scan repository](screenshots/image2.jpeg)
+
+---
+
+## ✅ Exécution du pipeline
+Le pipeline MultiBranch s’exécute avec succès après l’indexation.
+
+![Pipeline success](screenshots/image3.jpeg)
+
+---
+
+## ✔️ Résultat
+- Jenkinsfile détecté automatiquement
+- Pipeline exécuté avec succès
+- Intégration GitHub ↔ Jenkins fonctionnelle
+
+---
+
+## 📌 Conclusion
+Ce TP m’a permis de comprendre le fonctionnement des pipelines Jenkins
+et l’automatisation CI/CD avec GitHub.
